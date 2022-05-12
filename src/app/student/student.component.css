@@ -1,0 +1,14 @@
+.student-profiles {
+    padding-top: 5px;
+    border-color: sienna;
+    align-content: center;
+    color: red;
+    border-style: solid;
+    border-width: 20px;
+}
+.student-icon{
+    align-content: center;
+    position: absolute;
+    width: 30px;
+    height: 20px;
+}

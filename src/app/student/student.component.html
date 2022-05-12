@@ -1,0 +1,22 @@
+<div class="student-profiles">
+    <p>student details!</p>
+
+    <a class="card" target="_blank" rel="noopener" href="http://localhost:10090/student/getall">
+        <span>CLI Documentation</span>
+    </a>
+</div>
+
+<div *ngIf="showDiv">students !</div>
+<div class="student-icon">
+    <img src="assets/image/student.png">
+</div>
+
+<nav>
+    <ul>
+        <li><a routerLink="/getAll" routerLink="active">Get Students</a></li>
+    </ul>
+</nav>
+
+<router-outlet></router-outlet>
+
+
